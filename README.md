@@ -9,7 +9,8 @@ This is an adaptation of earlier work, not original research into the protocol:
 - [supermar1010's Linux script and firmware research](https://gist.github.com/supermar1010/3e81e3f23ce16c826e383edbf9442351): the MStar vendor EEPROM protocol, the stuck DDC power flag, and the "unplug immediately" procedure (Curved 34", product `0x3444`).
 - [rm-killer's Windows repair](https://github.com/rm-killer/xiaomi-curved-34-osd-fix-windows) (MIT): the NVIDIA NVAPI transport over HDMI, and the shifted layout of revision `0x3445`.
 - [leag's XMI3446 adaptation](https://gist.github.com/leag/3b8234b3f217489eb279eb8ce174a307): the guard-everything approach and the documented EEPROM header.
-
+- Credit goes to Batmaaaaan for creating the fix for Xiaomi 27 2k Mi Gaming Monitor XMI2701 on Windows.
+  
 The `0x2701` layout below was found by reading the monitor, not by disassembling its firmware. It does not establish compatibility with every `0x2701` unit or firmware revision.
 
 ## Symptom
