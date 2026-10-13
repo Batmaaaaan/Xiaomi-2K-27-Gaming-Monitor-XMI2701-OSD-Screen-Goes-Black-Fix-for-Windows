@@ -16,7 +16,7 @@ The `0x2701` layout below was found by reading the monitor, not by disassembling
 ## Symptom
 
 - Pressing the menu button blacks out the screen briefly, and no OSD appears.
-- Per the earlier research, this is caused by a stuck "DDC power-down pending" flag in the settings EEPROM, set when DDC/CI software sends a power command (VCP `0xD6`, "turn display off"). Ordinary power-cycling does not clear it. I did not verify here what triggered it on the repaired unit.
+- Per the earlier research, this is caused by a stuck "DDC power-down pending" flag in the settings EEPROM, set when DDC/CI software sends a power command (VCP `0xD6`, "turn display off"). Ordinary power-cycling does not clear it. 
 
 ## What is different on 0x2701
 
