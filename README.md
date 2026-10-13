@@ -81,4 +81,3 @@ Disable "turn display off" and any power/backlight-off feature in Monitorian, Tw
 - Confirmed on **one** unit. The script's exact-match guards limit it to the observed configuration; they are not a firmware signature.
 - Tested offline against a simulated monitor (good write, rejected write, misplaced write, wrong header, wrong pattern), and on the one real unit.
 - Untested: Linux. If you adapt the Linux script, the request value would be `(EEPROM address - 0x8D3D) & 0xFFFF` (i.e. `BASE = 0x8D3D`); I have not verified this.
-- Personal EEPROM backup and scan files are not included. They contain a secure-storage region and should not be shared.
